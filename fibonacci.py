@@ -24,7 +24,8 @@ def fibonacci(n):
 print("\n==========Fibonacci Sequence==========\n")
 
 # ask user to enter max length of fibonacci sequence
-sequence_length = int(input("Enter max length of sequence:"))
+sequence_length = int(
+    input("Enter the last (n) number to stop generating a sequence for :"))
 
 for n in range(1, sequence_length + 1):
     print(n, ":", fibonacci(n))
